@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Social Media Application",
+  "main": "app.js",
+  "engines": {
+    "node":"^17.7.2"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "Prathamesh Patil",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.1",
+    "node": "^17.7.2",
+    "nodemailer": "^6.7.5",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemailer-sendinblue-transport": "^1.2.3",
+    "sib-api-v3-sdk": "^8.3.0"
+  }
+}

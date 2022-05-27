@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Beau+Rivage&family=Bebas+Neue&family=Cookie&family=Elsie&family=Goblin+One&family=Lobster&family=Mouse+Memoirs&family=Oleo+Script+Swash+Caps&family=Oxygen:wght@300&family=PT+Sans+Narrow&family=Pacifico&family=Playfair+Display&family=Roboto+Mono:wght@100&family=Sail&family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+.navbar-brand{
+  font-family: 'Oleo Script Swash Caps', cursive;
+  text-align: center;
+  font-size:  35px !important;
+}
+.navbar{
+  padding: 0px !important;
+}
+.form{
+  margin: 0 auto;
+  width: 400px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 1%;
+  margin-top: 3%;
+  margin-bottom: 20px;
+}
+
+.modal
+.form-control:focus{
+  box-shadow: 0 1px 0 0 red;
+}
+.btn{
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  align-items: center;
+  display: inline;
+}
+
+
+
+
+  #logout{
+    margin-right: 50px !important;
+  }
+
+  .search{
+    margin-left: -20px !important;
+    margin-right: 20px !important;
+
+  }
+
+  .fa-comment{
+    margin-bottom:-20px !important;
+  }
+
+  .find{
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important;
+    border-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+    margin: 0px !important;
+    margin-left: 20px !important;
+  }
+
+  .fa-magnifying-glass{
+    color: rgba(255,255,255,.55);
+    
+  }
+
+  .input-group{
+    width:180px !important;
+    margin-top: 10px !important;
+  }
+
+  .post-form{
+    border: 5px solid white !important;
+    border-radius: 15px;
+    width: 336px;
+    height:440px !important;
+    padding: 20px !important;
+  }
+
+  .l{
+    box-shadow: rgba(5, 5, 5, 0.32) 5px 15px 22px 1px, rgba(5, 5, 5, 0.32) 5px 15px 15px 3px ;
+    border: none;
+    border-radius: 10px;
+    padding: 50px !important;
+    margin-top: 50px;
+    background-color: rgb(218, 0, 55);
+    margin-bottom: 50px !important;
+  }
+
+  .formbg{
+    background-color:rgb(255, 255, 255);
+  } 
+
+  @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+  
+  
+
+  input {
+
+    border-radius: 0;
+  }
+  
+  .card1 {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 425px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 rgba(#999, 0.25);
+    padding: 0.75rem;
+  }
+  
+  .card1-image {
+    border-radius: 8px;
+    overflow: hidden;
+    padding-bottom: 75%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgzVqGCi5n2sb-14amUt3R7jcT_cgfG4iUSIqCWCZDNbFbkZsGLfcBJ_GlKN24jGGQUrM&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 5%;
+    position: relative;
+    background-color: white;
+    filter: brightness(110%);
+  }
+  
+  .card1-heading {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    right: 10%;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #735400;
+    line-height: 1.222;
+
+  }
+  
+  .card1-form {
+    padding: 2rem 1rem 0;
+    
+  }
+  
+  .input1 {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    position: relative !important;
+    padding-top: 1.5rem !important;
+    
+  }
+
+  .input1 + .input1 {
+    margin-top: 1.5rem;
+  }
+  
+  .input1-label {
+    color: #8597a3 !important;
+    position: absolute !important;
+    top: 1.5rem !important;
+    transition: 0.25s ease !important;
+  }
+  
+  .input1-field {
+    border: 0px !important;
+    z-index: 1 !important;
+    background-color: transparent !important;
+    border-bottom: 2px solid #eee !important;
+    font: inherit !important;
+    font-size: 1.125rem !important;
+    padding: 0.25rem 0 !important;
+
+  }
+  
+  .input1-field:focus,.input1-field:valid {
+    outline: 0px !important;
+    border-bottom-color: #6658d3 !important;
+
+  }
+
+  .input1-field:focus +.input1-label,.input1-field:valid +.input1-label{
+    color: #6658d3 !important;
+    transform: translateY(-1.5rem) !important;
+  } 
+
+  .action {
+    margin-top: 2rem !important;
+  }
+  
+  .action-button {
+    font: inherit;
+    font-size: 1.25rem;
+    padding: 0.5em;
+    width: 100%;
+    font-weight: 500;
+    background-color: #6658d3 !important;
+    border-radius: 6px;
+    color: #fff !important;
+    border: 1px;
+  
+  }
+  
+  .action-button:focus {
+    outline: 1px;
+  }
+
+  
+
+
+
+
+  
